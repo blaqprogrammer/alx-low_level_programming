@@ -6,9 +6,9 @@
 #include <stdio.h>
 
 /**
- * main - This is the entry point of the program
+ *main - This is the entry point of the program
  *
- * Return - if a number is being positive or negative
+ *Return: Returns if a number is positive or negative.
  */
 
 /* betty style doc for function main goes there */
