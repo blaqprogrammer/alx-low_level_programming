@@ -1,6 +1,6 @@
-#include <stdio.h>
+#ifndef main_h
+#define main_h
 
-int _putchar(void)
-{
-	printf("_putchar\n");
-}
+int _putchar(char c)
+
+#endif
