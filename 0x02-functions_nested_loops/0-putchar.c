@@ -6,7 +6,6 @@
  *Return: it would return the value on the header file.
  */
 
-
 int main(void)
 {
 	_putchar();
