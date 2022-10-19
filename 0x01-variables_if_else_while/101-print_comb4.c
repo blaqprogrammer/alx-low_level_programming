@@ -18,16 +18,15 @@ int main(void)
 		{
 			for (num2 = 2; num2 < 10; num2++)
 			{
-				if (num != num1 && num != num2)
+				if (num < num1 && num1 < num2)
 				{
-					if (num1 != num2)
-					{
 			putchar(num + '0');
 			putchar(num1 + '0');
 			putchar(num2 + '0');
-			putchar(',');
-			putchar(' ');
-					}
+			if (num < 8)
+			{
+				putchar(',');
+			}
 				}
 			}
 		}
