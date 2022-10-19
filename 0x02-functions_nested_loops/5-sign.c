@@ -8,8 +8,6 @@
 
 int print_sign(int n)
 {
-	for (n = 0; n < 5; n++)
-	{
 		if (n > 0)
 		{
 			_putchar('+');
