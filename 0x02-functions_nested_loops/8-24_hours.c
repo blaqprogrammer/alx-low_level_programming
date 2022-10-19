@@ -1,6 +1,9 @@
 #include "main.h"
 
-
+/**
+ * jack_bauer - entry point
+ * Return: digits of a clock.
+ */
 
 
 
