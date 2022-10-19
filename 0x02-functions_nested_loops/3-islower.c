@@ -1,18 +1,19 @@
 #include "main.h"
 
 /**
- *print_alphabet_x10- runs the code
+ * _islower- Entry point
  *
- * Return: alphabets from a - z.
+ *@c: is the char representing the lowercase.
+ * Return: 1 if char is lowercase, otherwise 0
  */
+
+
+
 
 int _islower(int c)
 {
-	if (c >= 'a' && c <='z')
-	{
-		return(1);
-	}
-	else{
-		return(0);
-	}
+	if (c >= 'a' && c <= 'z')
+		return (1);
+	else
+		return (0);
 }
