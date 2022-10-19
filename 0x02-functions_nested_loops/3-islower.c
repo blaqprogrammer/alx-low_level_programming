@@ -8,10 +8,11 @@
 
 int _islower(int c)
 {
-	for (c = 'a'; c <= 'z';)
-		if (c == c)
+	if (c >= 'a' && c <=z)
 	{
-		_putchar(1);
+		return(1);
 	}
-	_putchar('\n');
+	else{
+		return(0);
+	}
 }
