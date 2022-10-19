@@ -10,18 +10,10 @@
 
 
 
-int _isalpha(int c, int b)
+int _isalpha(int c)
 {
-	if (b >= 'A' && b <= 'Z')
-	{
-	if (c >= 'a' && c <= 'z')
-	{
+	if ((c >= 'A' && c <= 'Z') || (c >= 'a' && c <= 'z'))
 		return (1);
-	}
-
 	else
-	{
 		return (0);
-	}
-	}
 }
