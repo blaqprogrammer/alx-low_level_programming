@@ -1,5 +1,11 @@
 #include "main.h"
 
+/**
+ * main- the main is where the code runs
+ *
+ * Return: The code returns a string.
+ */
+
 
 int main(void)
 {
@@ -12,5 +18,5 @@ int main(void)
 	_putchar('a');
 	_putchar('r');
 	_putchar('\n');
-	return(0);
+	return (0);
 }
