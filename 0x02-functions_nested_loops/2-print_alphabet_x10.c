@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * main- runs the code
+ *print_alphabet_x10- runs the code
  *
- * Return:
+ * Return: alphabets from a - z.
  */
 
 void print_alphabet_x10(void)
