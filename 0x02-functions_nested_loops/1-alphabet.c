@@ -1,17 +1,18 @@
 #include "main.h"
 
 /**
- * main- the main is where the code runs
+ * print_alphabet- the main is where the code runs
  *
- * Return: The code returns a string.
+ * Return: 0 always.
  */
 
 void print_alphabet(void)
 {
 	char az;
+
 	for (az = 'a'; az <= 'z'; az++)
 	{
 		_putchar(az);
-		_putchar('\n');
 	}
+	_putchar('\n');
 }
