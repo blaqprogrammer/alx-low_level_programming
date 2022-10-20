@@ -2,9 +2,8 @@
 
 /**
  *main - This is the entry point.
- * Return: 0 if positive or negative
+ *Return: 0 if positive or negative
  */
-
 
 
 int main(void)
@@ -15,5 +14,4 @@ int main(void)
 	positive_or_negative(i);
 
 	return (0);
-
 }
