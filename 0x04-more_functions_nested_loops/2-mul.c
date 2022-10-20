@@ -16,4 +16,5 @@ int mul(int a, int b)
 
 	for (c = a * b)
 	_putchar(c);
+	return (0);
 }
