@@ -10,11 +10,9 @@
 
 
 
-int mul(int a, int b)
+int mul(int a, int b, int c)
 {
-	int c;
-
-	for (c = a * b)
+	c = a * b;
 	_putchar(c);
 	return (0);
 }
