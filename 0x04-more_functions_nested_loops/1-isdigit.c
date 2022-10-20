@@ -11,17 +11,12 @@
 
 int _isdigit(int c)
 {
-	int d;
-
-	for (d = 1; d <= 9;)
-	{
-	if (c == d)
+	if (c <= 9)
 	{
 		return (1);
 	}
 	else
 	{
 		return (0);
-	}
 	}
 }
