@@ -6,11 +6,11 @@
  * Return: numbers if % by 3 or 5.
  */
 
-int main (void)
+int main(void)
 
 {
 	int i;
-	
+
 	for (i = 1; i < 101; i++)
 	{
 		if (i % 3 == 0 && i % 5 == 0)
