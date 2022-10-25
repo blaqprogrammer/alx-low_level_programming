@@ -8,9 +8,5 @@
 
 int _strlen(char *s)
 {
-	size_t len = 0;
-
-	while (*str++)
-		len++;
-	return (len);
+	_putchar("%zu", strlen(s));
 }
