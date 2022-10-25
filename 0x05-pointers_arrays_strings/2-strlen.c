@@ -9,7 +9,10 @@
 
 int _strlen(char *s)
 {
+	int len;
+
 	s = "Letters";
-	_putchar("%zu", _strlen(s));
-	return(0);
+	len = _strlen(str);
+	_putchar("%d", len);
+
 }
