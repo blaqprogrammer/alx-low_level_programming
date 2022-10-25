@@ -7,12 +7,14 @@
  *Return: Returns the lenght of a string.
  */
 
-int _strlen(char *s)
+size_t _strlen(char *s)
 {
-	int len;
+	size_t len = 0;
 
-	s = "Letters";
-	len = _strlen(str);
-	_putchar("%d", len);
+	while
+	(*str++);
 
+	len++;
+
+	return (len);
 }
