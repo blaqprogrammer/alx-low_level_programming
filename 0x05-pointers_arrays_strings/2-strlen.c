@@ -10,6 +10,6 @@
 int _strlen(char *s)
 {
 	s = "Letters";
-	_putchar("%zu", strlen(s));
+	_putchar("%zu", _strlen(s));
 	return(0);
 }
