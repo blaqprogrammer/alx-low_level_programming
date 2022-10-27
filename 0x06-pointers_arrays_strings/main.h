@@ -3,4 +3,5 @@
 #include <stdlib.h>
 
 char *_strcat(char *dest, char *src);
+int putchar(char c);
 #endif
