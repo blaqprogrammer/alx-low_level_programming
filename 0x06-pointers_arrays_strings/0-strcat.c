@@ -10,8 +10,8 @@
 char *_strcat(char *dest, char *src)
 {
 	dest = "Hello";
-	src = "World";
+	src = "World!";
 
-	_strcat("%s\n", dest, src);
+	_putchar("%c %c", dest, scr);
 	return (0);
 }
