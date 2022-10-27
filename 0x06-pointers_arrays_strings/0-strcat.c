@@ -10,7 +10,8 @@
 char *_strcat(char *dest, char *src)
 {
 	int can = 0, can1 = 0;
-	while (*(dest + can)!='\0')
+
+	while (*(dest + can) != '\0')
 	{
 		can++;
 	}
