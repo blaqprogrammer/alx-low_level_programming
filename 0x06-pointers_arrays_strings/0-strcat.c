@@ -9,9 +9,6 @@
 
 char *_strcat(char *dest, char *src)
 {
-	dest = "Hello";
-	src = "World!";
-
-	_putchar("%c %c", dest, scr);
-	return (0);
+	*_strcat(*dest, *src);
+	return (*dest);
 }
