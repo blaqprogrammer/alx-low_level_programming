@@ -1,5 +1,4 @@
 #include "main.h"
-#include <string.h>
 
 /**
  *_strlen - The entry point
@@ -11,7 +10,7 @@ int _strlen(char *s)
 {
 	int lenght;
 
-	lenght = _strlen(s);
-	_putchar("%c", lenght);
-	return (0);
+	while *(s++)
+		lenght++
+	return (lenght);
 }
