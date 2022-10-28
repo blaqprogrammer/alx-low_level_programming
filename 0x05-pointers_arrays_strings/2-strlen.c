@@ -7,14 +7,11 @@
  *Return: Returns the lenght of a string.
  */
 
-size_t _strlen(char *s)
+int _strlen(char *s)
 {
-	size_t len = 0;
+	char i[] = "My first strlen";
+	int lenght;
 
-	while
-	(*str++);
-
-	len++;
-
-	return (len);
+	lenght = _strlen(i);
+	_putchar("%zu", lenght);
 }
