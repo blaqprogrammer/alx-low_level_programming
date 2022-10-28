@@ -7,8 +7,9 @@
  *Return: Returns the lenght of a string.
  */
 
-int _strlen(char *s)
+int _strlen(char *s, int lenght)
 {
-	strcat(_strlen(s));
-	return (s);
+	s = " ";
+	lenght = _strlen(s);
+	return (lenght);
 }
