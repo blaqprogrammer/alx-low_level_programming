@@ -12,6 +12,6 @@ int _strlen(char *s)
 	int lenght;
 
 	lenght = _strlen(s);
-	_putchar("%s", lenght);
+	_putchar("%c", lenght);
 	return (0);
 }
