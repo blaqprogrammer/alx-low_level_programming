@@ -1,4 +1,5 @@
 #include "main.h"
+#include <string.h>
 
 /**
  *_strlen - The entry point
@@ -8,9 +9,6 @@
 
 int _strlen(char *s)
 {
-	int lenght = 0;
-
-	while (*s++)
-		lenght++
-	return (lenght);
+	strcat(_strlen(s));
+	return (s);
 }
