@@ -9,7 +9,7 @@
 
 int _strlen(char *s)
 {
-	s[] = "My first strlen";
+	s = "My first strlen";
 	int lenght;
 
 	lenght = _strlen(s);
